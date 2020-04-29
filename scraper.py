@@ -6,7 +6,7 @@ import lxml.html
 not_given = "keine Angabe"
 #NUM_PAGES = 5
 #for page in range(1, NUM_PAGES+1):
-base_url = 'http://www.berlin.de/sen/bildung/schulverzeichnis_und_portraets/anwendung/Schulportrait.aspx?IDSchulzweig='
+base_url = 'https://www.berlin.de/sen/bildung/schulverzeichnis_und_portraets/anwendung/Schulportrait.aspx?IDSchulzweig='
 # 8566
 for n in range(8566, 11400):
     url = base_url + str(n)
